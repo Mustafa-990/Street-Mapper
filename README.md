@@ -8,7 +8,8 @@
  * Lab Partner:
  * Name: Murtaza Hassan
  * NetID: Mhassan
- * Email:  mustafamudassar_2024@depauw.edu
+ * Email:  murtazahassan_2024@depauw.edu
+
 Files:
 Node.java, Edge.java, Graph.java, Canvas.java, StreetMap.java, map.png, map2.png. The two png files are just icons we add into our map at the starting node and ending node. The node file represents an intersection, the edge file reprsents a node and is also used to calculate weights of the edges. The graph file implements the shortest path calculation. The Canvas file is used to draw the map, handling the JFrame part of our project. The StreetMap class is the class with the main method, and uses inputs from cmd to give output of our project. 
 Starting off, we first defined the basic classes: Node, Edge and Graph. Then we both handled the construction of the graph from the input file that is provided to us. The implementation of Dijkstra's algorithm was also handled by the both of us to find the shortest path between two points provided by the user if their exists a path between them. The calculation of distance in miles of this path and printing of path was done by Murtaza. Mustafa worked on the Canvas class which involves the drawing and scaling of the map, and drawing of the the shortest path using the path that was computed and Murtaza created the main-class to use command line arguments for input and to call other classes properly to draw map and path. We both worked on the extra credit parts together, working on ideas and determining how to add its code.
